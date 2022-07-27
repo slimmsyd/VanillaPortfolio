@@ -9,6 +9,9 @@ body {
   color: #ffff;
 }
 @media screen and (max-width: 749px) { 
+  .header > div { 
+    min-width: 500px
+  }
   .wrapper { 
     padding: 0rem; 
   }
