@@ -1,13 +1,22 @@
 body {
   background-color: #130F26;
   min-height: 100vh;
-  width: fit-content;
 }
 
 .wrapper {
   padding: 8rem 5rem;
   font-family: 'Poppins', sans-serif;
   color: #ffff;
+}
+@media screen and (max-width: 749px) { 
+  .wrapper { 
+    padding: 0rem; 
+  }
+}
+img { 
+  object-fit: contain;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .wrapper h1 {
