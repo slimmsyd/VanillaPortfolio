@@ -30,7 +30,7 @@ nav {
         grid-template-columns: 1fr minmax(6rem, 22%);
         align-items: center;
         grid-gap: 0.5rem 1rem;
-        min-width: max-content
+        min-width: 500px;
     }
     .innerDiv { 
         grid-column: span 2;
