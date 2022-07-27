@@ -30,6 +30,7 @@ nav {
         grid-template-columns: 1fr minmax(6rem, 22%);
         align-items: center;
         grid-gap: 0.5rem 1rem;
+        min-width: max-content
     }
     .innerDiv { 
         grid-column: span 2;
@@ -58,6 +59,7 @@ nav {
 
 
     section { 
+        min-width: fit-content;
         margin-top: 40px;
         display: grid;
     grid-template-columns: [full-start] minmax(8vmin, auto) [wide-start] minmax(auto, 240px) [main-start] min(800px,100% - 16vmin) [main-end] minmax(auto, 240px) [wide-end] minmax(8vmin, auto) [full-end];
@@ -108,7 +110,7 @@ li:after {
 }
 #highlight, #highlight a { 
     color: #613FE8;
-    font-weight: 700;
+    font-weight: 700; 
 }
 
 .circle { 
